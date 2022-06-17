@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+@media screen and (max-width: 782px) {
+  .auto-fold #wpcontent {
+    position: relative;
+    margin-left: 0;
+    padding-left: 0px;
+  }
+}
+// this only effect inside plugin
+#wpcontent {
+  height: 100%;
+  padding-left: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f0f1;
+}
+:root {
+  --bbcolor: #4f94d4;
+  --px-line: 3px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2px 20px 0;
+}
+.logo {
+  align-items: center;
+  border-right: 1px solid #ddd;
+  display: flex;
+  max-width: 140px;
+  padding-right: 20px;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 25px 30px 23px;
+  height: 75px;
+  // border-bottom: var(--px-line) solid transparent;
+}
+.tab a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: inherit;
+  border-bottom: var(--px-line) solid transparent;
+}
+
+/* Change background color of href a on hover */
+.tab a:hover {
+  background-color: rgb(255, 255, 255);
+  border-bottom: var(--px-line) solid var(--bbcolor);
+  color: var(--bbcolor);
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+  background: none;
+  border-bottom: var(--px-line) solid var(--bbcolor);
+  color: var(--bbcolor);
+}
+
+/* Style the tab content */
+.tabcontent {
+  margin: 15px;
+  background: white;
+  display: block;
+  padding: 12px 12px;
+  border-top: none;
+  font-family: "Roboto", sans-serif;
+
+  .pheadline {
+    font-size: 24px;
+    color: var(--bbcolor);
+  }
+}

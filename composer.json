@@ -1,0 +1,17 @@
+{
+  "name": "jamaal/firstplugin",
+  "description": "My First Plugin Wordpress React",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "Jamaal\\Firstplugin\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jamaaldev",
+      "email": "kabarojamaal@gmail.com"
+    }
+  ],
+  "require": {}
+}
