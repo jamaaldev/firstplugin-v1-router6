@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-const TheContent = () => {
+const HeaderContent = () => {
   return <Outlet />;
 };
 
-export default TheContent;
+export default HeaderContent;

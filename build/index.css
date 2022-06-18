@@ -1,2 +1,178 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/headertabs/HeaderTabLinks.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
-@media screen and (max-width:782px){.auto-fold #wpcontent{margin-left:0;padding-left:0;position:relative}}#wpcontent{height:100%;padding-left:0}body{background:#f0f0f1;box-sizing:border-box;margin:0;padding:0}:root{--bbcolor:#4f94d4;--px-line:3px}.tab{background-color:#fff;flex-wrap:wrap;overflow:hidden;padding:2px 20px 0}.logo,.tab{align-items:center;display:flex}.logo{border-right:1px solid #ddd;max-width:140px;padding-right:20px}.tab button{border:none;cursor:pointer;float:left;height:75px;outline:none;padding:25px 30px 23px}.tab a,.tab button{background-color:inherit;font-family:Roboto,sans-serif;font-size:14px}.tab a{border-bottom:var(--px-line) solid transparent}.tab a:hover{background-color:#fff}.tab a.active,.tab a:hover{border-bottom:var(--px-line) solid var(--bbcolor);color:var(--bbcolor)}.tab a.active{background:none}.tabcontent{background:#fff;border-top:none;display:block;font-family:Roboto,sans-serif;margin:15px;padding:12px}.tabcontent .pheadline{color:var(--bbcolor);font-size:24px}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/headertabs/HeaderTabLinks.scss (1) ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+@media screen and (max-width: 782px) {
+  .auto-fold #wpcontent {
+    position: relative;
+    margin-left: 0;
+    padding-left: 0px;
+  }
+}
+#wpcontent {
+  height: 100%;
+  padding-left: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f0f1;
+}
+
+:root {
+  --bbcolor: #4f94d4;
+  --px-line: 3px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2px 20px 0;
+}
+
+.logo {
+  align-items: center;
+  border-right: 1px solid #ddd;
+  display: flex;
+  max-width: 140px;
+  padding-right: 20px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 25px 30px 23px;
+  height: 75px;
+}
+
+.tab a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: inherit;
+  border-bottom: var(--px-line) solid transparent;
+}
+
+/* Change background color of href a on hover */
+.tab a:hover {
+  background-color: rgb(255, 255, 255);
+  border-bottom: var(--px-line) solid var(--bbcolor);
+  color: var(--bbcolor);
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+  background: none;
+  border-bottom: var(--px-line) solid var(--bbcolor);
+  color: var(--bbcolor);
+}
+
+/* Style the tab content */
+.tabcontent {
+  margin: 15px;
+  background: white;
+  display: block;
+  padding: 12px 12px;
+  border-top: none;
+  font-family: "Roboto", sans-serif;
+}
+.tabcontent .pheadline {
+  font-size: 24px;
+  color: var(--bbcolor);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/vericaltabs/VerticalTabLinks.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Style the verical_tab */
+.verical_tab {
+  float: left;
+  border: 1px solid #fcfcfc;
+  background-color: #f1f1f1;
+  width: 20%;
+  z-index: -99;
+}
+
+.verical_tab a {
+  text-decoration: none;
+}
+
+/* Style the buttons inside the verical_tab */
+.verical_tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  border-bottom: #e1e1e1 solid 1px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.verical_tab button:hover {
+  background-color: #dde4ea;
+  color: var(--bbcolor);
+}
+
+/* Create an active/current "verical_tab a" class */
+.verical_tab a.active {
+  background-color: #e1e1e1;
+  border-bottom: var(--px-line) solid var(--bbcolor);
+  color: var(--bbcolor);
+}
+
+/* Style the verical_tab content */
+.verical_tabcontent {
+  float: left;
+  background: white;
+  padding: 0px 12px;
+  min-height: 550px;
+  width: 80%;
+  border-left: none;
+  z-index: 99;
+}
+
+.verical_tab_container {
+  margin: 15px;
+}
+
+.verical_tab_container_both {
+  background-color: #f8f8f8;
+  float: left;
+  width: 100%;
+  border-left: none;
+  min-height: 550px;
+}
+
+.pheadline {
+  font-size: 24px;
+  color: var(--bbcolor);
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
-import "./Header.scss";
 
-const Header = () => {
+import "./HeaderTabLinks.scss";
+
+const HeaderTabLinks = () => {
   return (
     <>
       <div className="tab">
@@ -13,13 +14,14 @@ const Header = () => {
         <NavLink to={"/"}>
           <button className="tablinks dashboard">Dashboard</button>
         </NavLink>
-        <NavLink to={"support"}>
+        <NavLink to={"/support"}>
           <button className="tablinks support">Support</button>
         </NavLink>
-        <NavLink to={"settings"}>
+        <NavLink to={"/settings/generalsettings"}>
           <button className="tablinks settings">Settings</button>
         </NavLink>
-        <NavLink to={"templates"}>
+
+        <NavLink to={"/templates"}>
           <button className="tablinks templates">Templates</button>
         </NavLink>
       </div>
@@ -27,4 +29,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTabLinks;
