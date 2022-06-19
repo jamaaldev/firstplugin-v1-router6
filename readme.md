@@ -2,6 +2,12 @@
 
 ![](https://github.com/jamaaldev/DesktopFiles/blob/main/firstplugin.png?raw=true?raw=trues=200)
 
+#### npm audit says You have a vulnerability in react-scripts!
+
+Then, ensure you run ,`npm audit --production`, rather than npm audit fix.
+you dont need react-scripts in this package.json plugin, you can remove it, but if you like to see what you changing in your browser you need this
+to start the server browser by typying npm run startr please dont forget to check in the package.json you also need npm run start for wordpress server to generate the scripts
+i am not sure how this will help but i just added it in case if someone like it.
 
 ## @wordpress/scripts package using react 17. you cant use react 18 at the moment.
 

@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "startr": "react-scripts start",
+    "buildr": "react-scripts build",
     "build": "wp-scripts build",
     "start": "wp-scripts start",
     "zip": "npm-build-zip --source=./ "
@@ -39,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
