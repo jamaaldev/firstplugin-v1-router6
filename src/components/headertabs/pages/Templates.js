@@ -1,4 +1,4 @@
-function Templates({ idcontent, classcontent }) {
+function Templates() {
   return (
     <>
       <div id="Dashboard" className="tabcontent">

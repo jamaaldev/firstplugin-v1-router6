@@ -1,4 +1,4 @@
-function Support({ idcontent, classcontent }) {
+function Support() {
   return (
     <>
       <div id="Dashboard" className="tabcontent">

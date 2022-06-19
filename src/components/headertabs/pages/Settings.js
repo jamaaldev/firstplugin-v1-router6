@@ -1,11 +1,11 @@
-import VerticalContent from "../../vericaltabs/VerticalContent";
+import VerticalContent from "../../verticaltabs/VerticalContent";
 
-import VerticalTabLinks from "../../vericaltabs/VerticalTabLinks";
+import VerticalTabLinks from "../../verticaltabs/VerticalTabLinks";
 function Settings() {
   return (
     <>
-      <div className="verical_tab_container">
-        <div className="verical_tab_container_both">
+      <div className="vertical_tab_container">
+        <div className="vertical_tab_container_both">
           <VerticalTabLinks />
           <VerticalContent />
         </div>

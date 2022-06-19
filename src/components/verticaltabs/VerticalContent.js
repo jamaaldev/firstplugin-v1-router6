@@ -5,7 +5,7 @@ import OtherSettings from "./pages/OtherSettings";
 function VerticalContent() {
   return (
     <>
-      <div class="verical_tabcontent">
+      <div class="vertical_tabcontent">
         <Routes>
           <Route index element={<GeneralSettings />} />
           <Route path="generalsettings" element={<GeneralSettings />} />

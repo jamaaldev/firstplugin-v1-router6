@@ -4,17 +4,17 @@ import "./VerticalTabLinks.scss";
 function VerticalTabLinks() {
   return (
     <>
-      <div class="verical_tab">
+      <div class="vertical_tab">
         <NavLink to={"/settings/generalsettings"}>
-          <button className="tablinks verical_tab">General Settings</button>
+          <button className="tablinks vertical_tab">General Settings</button>
         </NavLink>
 
         <NavLink to={"/settings/othersettings"}>
-          <button className="tablinks verical_tab">Other Settings</button>
+          <button className="tablinks vertical_tab">Other Settings</button>
         </NavLink>
 
         <NavLink to={"/settings/googleaddress"}>
-          <button className="tablinks verical_tab">Google Address Autocomplete</button>
+          <button className="tablinks vertical_tab">Google Address Autocomplete</button>
         </NavLink>
       </div>
     </>

@@ -5,20 +5,20 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* Style the verical_tab */
-.verical_tab {
+/* Style the vertical_tab */
+.vertical_tab {
   float: left;
   border: 1px solid #fcfcfc;
   background-color: #f1f1f1;
   width: 20%;
   z-index: -99;
 }
-.verical_tab a {
+.vertical_tab a {
   text-decoration: none;
 }
 
-/* Style the buttons inside the verical_tab */
-.verical_tab button {
+/* Style the buttons inside the vertical_tab */
+.vertical_tab button {
   display: block;
   background-color: inherit;
 
@@ -35,20 +35,20 @@ body {
 }
 
 /* Change background color of buttons on hover */
-.verical_tab button:hover {
+.vertical_tab button:hover {
   background-color: #dde4ea;
   color: var(--bbcolor);
 }
 
-/* Create an active/current "verical_tab a" class */
-.verical_tab a.active {
+/* Create an active/current "vertical_tab a" class */
+.vertical_tab a.active {
   background-color: #e1e1e1;
   border-bottom: var(--px-line) solid var(--bbcolor);
   color: var(--bbcolor);
 }
 
-/* Style the verical_tab content */
-.verical_tabcontent {
+/* Style the vertical_tab content */
+.vertical_tabcontent {
   float: left;
   background: white;
   padding: 0px 12px;
@@ -58,10 +58,10 @@ body {
   z-index: 99;
 }
 
-.verical_tab_container {
+.vertical_tab_container {
   margin: 15px;
 }
-.verical_tab_container_both {
+.vertical_tab_container_both {
   background-color: #f8f8f8;
   float: left;
   width: 100%;
