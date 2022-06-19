@@ -1,7 +1,7 @@
 ### this is a example plugin for wordpress to react and you can learn from it how i did this is testing plugin i have not tryed with redux etc at the moment you can try if you want and let me know if that worked for u,
 
-everything you see i got it from different websites searching how to make wordpress react plugin
-enjoy.
+![](https://github.com/jamaaldev/DesktopFiles/blob/main/firstplugin.png?raw=true?raw=trues=200)
+
 
 ## @wordpress/scripts package using react 17. you cant use react 18 at the moment.
 
